@@ -1,0 +1,29 @@
+
+.card{
+	height: 800px;
+	outline: #FFF double 1px;
+	outline-offset: -8px;
+	background-image: url(island.jpg);
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #FFF;
+	font-size: 3em;
+	transition: all .5s linear;
+}
+.card h3{
+	width: 370px;
+	animation: typing 2s steps(22) alternate;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 3px solid;
+}
+.card:hover{
+	outline-offset: -25px;
+}
+@keyframes typing{
+	from{
+		width: 0;
+	}
+}
